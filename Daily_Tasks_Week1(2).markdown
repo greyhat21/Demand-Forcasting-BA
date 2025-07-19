@@ -1,0 +1,22 @@
+## Day 3: Feature Development and Integration
+
+### Business Analyst
+- Finalize user stories for first 3 KPIs (sales trends, demand forecasts, inventory turnover).
+- Collaborate with Frontend Developer to ensure dashboard wireframe aligns with user stories.
+- Review Backend Developer’s API endpoint documentation and provide feedback.
+- Begin drafting test cases for user acceptance testing (UAT) of dashboard and forecasts.
+- Research retail-specific KPIs (e.g., forecast accuracy metrics) to propose additional features.
+
+### Frontend Developer (ReactJS)
+- Connect dashboard to Backend Developer’s `/api/sales` endpoint to fetch real sales data.
+- Implement state management (e.g., React hooks) for dynamic KPI updates.
+- Style KPI widgets with Tailwind CSS for consistent branding (e.g., retail-themed colors).
+- Add loading states and error handling for API calls in the dashboard.
+- Test dashboard responsiveness across devices (mobile, tablet, desktop).
+
+### Backend Developer (Python/ML)
+- Implement data preprocessing pipeline (e.g., handle missing values, normalize data).
+- Train initial ML model (e.g., Random Forest) on historical sales data for demand forecasting.
+- Create API endpoint for forecast data (e.g., `/api/forecast?product_id=123`).
+- Test API endpoints with Postman to ensure correct data output.
+- Share forecast model performance metrics (e.g., MAE, RMSE) with BA for validation.

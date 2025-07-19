@@ -1,0 +1,24 @@
+# Daily Tasks for Sales Forecasting Product Development (Week 1)
+
+## Day 1: Project Kickoff and Setup
+
+### Business Analyst
+- Meet with stakeholders to confirm project scope: dashboard with KPIs (sales trends, demand forecasts, inventory turnover) and ML-based backend.
+- Draft initial user stories for MVP (e.g., "As a retail manager, I want to see daily sales trends to plan inventory").
+- Create wireframe for dashboard layout using Figma or a similar tool (focus on KPI widgets).
+- Document data requirements (e.g., sales, inventory, external factors) and share with Backend Developer.
+- Schedule daily standup meeting (15 minutes) for team alignment.
+
+### Frontend Developer (ReactJS)
+- Set up React project using CDN-hosted libraries (React, ReactDOM, Tailwind CSS).
+- Create a basic project structure with index.html, App.jsx, and components folder.
+- Initialize version control (Git) and push initial commit to shared repository.
+- Build a static dashboard template with placeholder KPI widgets (e.g., line chart for sales trends).
+- Review BA’s wireframe and provide feedback on feasibility.
+
+### Backend Developer (Python/ML)
+- Set up Python environment with Flask/FastAPI for REST API and scikit-learn/TensorFlow for ML.
+- Initialize database (e.g., PostgreSQL) and connect to backend for sample data access.
+- Review BA’s data requirements and confirm available datasets (e.g., historical sales, inventory).
+- Create a basic API endpoint (e.g., `/health`) to test connectivity with frontend.
+- Set up Git repository and align with Frontend Developer for shared version control.

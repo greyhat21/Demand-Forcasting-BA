@@ -1,0 +1,22 @@
+## Day 2: Requirements Refinement and Initial Development
+
+### Business Analyst
+- Refine user stories with acceptance criteria (e.g., “Dashboard displays sales trends for the last 30 days with <2s load time”).
+- Meet with Backend Developer to finalize data schema for KPIs (e.g., sales by date, product category).
+- Update wireframe based on Frontend Developer’s feedback.
+- Begin drafting API documentation outline (e.g., endpoints for sales data, forecasts).
+- Share initial user stories with team for review during standup.
+
+### Frontend Developer (ReactJS)
+- Implement reusable React components for KPI widgets (e.g., `SalesTrendChart`, `InventoryTurnoverCard`).
+- Integrate Chart.js (via CDN) for visualizing sales trends in the dashboard.
+- Mock API calls with dummy data to render placeholder charts (e.g., line chart for sales).
+- Ensure dashboard is responsive using Tailwind CSS (mobile and desktop layouts).
+- Test initial UI components locally and push updates to Git.
+
+### Backend Developer (Python/ML)
+- Design database schema for sales and inventory data (e.g., tables for transactions, products).
+- Create API endpoint to fetch historical sales data (e.g., `/api/sales?start_date=YYYY-MM-DD`).
+- Begin exploratory data analysis (EDA) on sample dataset to identify patterns (e.g., seasonality).
+- Select initial ML model (e.g., ARIMA or Random Forest) for forecasting based on data characteristics.
+- Document API endpoint details and share with BA for documentation.
